@@ -33,7 +33,15 @@ body{
 
 .container input{
   height:30px
-}""
+}
+
+.container a{
+  text-decoration: none;
+  color:white;
+  text-decoration: underline;
+  letter-spacing: 1px;
+  font-weight: bold
+}
   </style>
 </head>
 
@@ -46,8 +54,11 @@ body{
   
   <button onclick="createPass()">Generate Random Password</button>
   <button onclick="copyPass()">Copy</button>
+  
 
   <textarea name="" id="textarea" cols="30" rows="10" placeholder="You can Paste it here"></textarea>
+  
+<a href="codefile.txt" download>Download Code</a>
 </div>
 
 <script>
